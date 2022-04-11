@@ -1,0 +1,23 @@
+name: Inferno
+version: '1.1'
+main: de.fleetadmiraljakob.inferno.Inferno
+api-version: 1.18
+authors: [ FleetAdmiralJakob ]
+discription: A plugin with nice additions that improve your Minecraft experience. Try it out!
+
+
+commands:
+  heal:
+    discription: This command heals you.
+    aliases: [healme]
+  spawn:
+    discription: This command teleports you to the spawn.
+    aliases: [setspawn]
+
+permissions:
+  de.fleetadmiraljakob.inferno.heal:
+          discription: With this you can heal yourself.
+          default: op
+  de.fleetadmiraljakob.inferno.setspawn:
+          discription: With this you can set the spawn .
+          default: op
